@@ -1,0 +1,49 @@
+.banner {
+    background: url("https://guesthoo.com/wp-content/uploads/2018/12/barn-kitchen.jpg") center center;
+    height: 50vh;
+    position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 290px;
+}
+
+/* this targets 'search dates' to bring in the middle of page */
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+/* this targets search dates button */
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+/* this targets 'Explore Nearby button' */
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* this targets h5  */
+.banner__info > h5 {
+    margin-top: 10px;
+}
+
+/* this targets the explore button for color chages */
+.banner__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
